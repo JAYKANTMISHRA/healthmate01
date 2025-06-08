@@ -60,7 +60,7 @@ const AddDoctor = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#44524a] px-4 py-10">
+    <div className="min-h-screen flex pt-24 items-center justify-center bg-[#44524a] px-4 py-10">
       <form onSubmit={onSubmitHandler} className="bg-primary rounded-2xl shadow-xl w-full max-w-3xl p-8 space-y-6">
         <h2 className="text-2xl font-bold text-center text-[#44524a]">Add New Doctor</h2>
 

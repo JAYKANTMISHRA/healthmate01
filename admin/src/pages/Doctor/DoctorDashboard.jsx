@@ -34,7 +34,7 @@ const DoctorDashboard = () => {
   };
 
   return (
-    <div className="min-h-screen px-4 py-8 bg-[#44524a]">
+    <div className="min-h-screen px-4 pt-24 py-8 bg-[#44524a]">
       <h1 className="text-3xl font-bold text-white mb-6">Doctor Dashboard</h1>
 
       <div className="grid gap-6">

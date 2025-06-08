@@ -48,13 +48,13 @@ const Navbar = () => {
 
         {/* Always show Admin/Doctor Panel */}
         <a
-          href="https://healthmate-adminpanel1.onrender.com"
+          href="https://healthmate01-admin.onrender.com"
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) => {
             e.preventDefault();
             window.open(
-              'https://healthmate-adminpanel1.onrender.com',
+              'https://healthmate01-admin.onrender.com',
               '_blank',
               'noopener,noreferrer'
             );

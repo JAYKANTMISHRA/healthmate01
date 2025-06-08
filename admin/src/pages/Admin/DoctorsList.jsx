@@ -11,7 +11,7 @@ const DoctorsList = () => {
   }, [aToken]);
 
   return (
-    <div className='m-5 max-h-[90vh] overflow-y-scroll bg-[#44524a] p-6 rounded-xl'>
+    <div className='m-5 max-h-[90vh] pt-24  overflow-y-scroll bg-[#44524a] p-6 rounded-xl'>
       <h1 className='text-2xl text-white font-semibold mb-6'>All Doctors</h1>
       <div className='flex flex-col gap-6'>
         {doctors.map((item, index) => (

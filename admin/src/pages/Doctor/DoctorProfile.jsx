@@ -41,7 +41,7 @@ const DoctorProfile = () => {
 
   return (
     profileData && (
-      <div className="min-h-screen flex items-center justify-center bg-[#44524a] px-4 py-8">
+      <div className="min-h-screen pt-24 flex items-center justify-center bg-[#44524a] px-4 py-8">
         <div className="w-full max-w-xl bg-primary rounded-2xl shadow-md p-8 space-y-6">
           <div className="flex flex-col items-center">
             <img
